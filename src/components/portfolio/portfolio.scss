@@ -1,0 +1,93 @@
+/** @format */
+
+.portfolio {
+  background-color: #2568fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-weight: 30;
+
+    &.left {
+      left: 100px;
+    }
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 600px;
+    display: flex;
+
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 6;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h2 {
+              font-size: 20px;
+              overflow: hidden;
+              padding-bottom: 10px;
+            }
+            p {
+              font-size: 15px;
+              overflow: hidden;
+            }
+
+            a {
+              font-size: 14px;
+              font-weight: 600;
+              text-decoration: underline;
+              overflow: hidden;
+              color: inherit;
+              padding-top: 10px;
+            }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+
+          img {
+            width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
