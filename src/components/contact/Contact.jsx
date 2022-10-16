@@ -3,6 +3,7 @@
 import "./contact.scss";
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import abt from "../../assets/abt_pic.jpeg";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -23,7 +24,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/abt_pic.jpeg" alt="" />
+        <img src={abt} alt="" />
       </div>
       <div className="right">
         <h2>Contact Me</h2>

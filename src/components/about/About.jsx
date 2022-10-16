@@ -2,7 +2,13 @@
 
 import "./about.scss";
 import { useState } from "react";
-import { GitHub, YouTube, Twitter, LinkedIn } from "@material-ui/icons";
+import {
+  GitHub,
+  YouTube,
+  Twitter,
+  LinkedIn,
+  MenuBook,
+} from "@material-ui/icons";
 
 export default function About() {
   return (
@@ -107,6 +113,11 @@ export default function About() {
                   target="_blank"
                 >
                   <LinkedIn className="icon LinkedIn" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.goodreads.com/gumba" target="_blank">
+                  <MenuBook className="icon Book" />
                 </a>
               </li>
             </ul>

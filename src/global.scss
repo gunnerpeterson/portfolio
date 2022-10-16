@@ -2,7 +2,7 @@
 
 $mainColor: #2568fb;
 
-$width: 1141px;
+$width: 1000px;
 
 @mixin mobile {
   @media (max-width: #{$width}) {
