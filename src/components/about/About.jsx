@@ -18,7 +18,7 @@ export default function About() {
           <h1>About</h1>
           <p>
             I’m a Philosopher and Programmer from Boston, Massachusetts. My goal
-            is to combine these two disperate fields through bring my knowledge
+            is to combine these two disparate fields by leveraging my knowledge
             of Ethics, Language, Logic, and beyond into the expanding dicipline
             of Artificial Intelligence. I view programming as my medium and
             conduit for Philosophy, much like playwriting and fiction.

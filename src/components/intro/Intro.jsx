@@ -14,7 +14,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Philosopher", "Programmer", "Playwrite"],
+      strings: ["Philosopher", "Programmer", "Playwright"],
     });
   }, []);
 

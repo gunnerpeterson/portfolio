@@ -34,7 +34,7 @@ export default function Portfolio() {
     {
       id: "0",
       title: "Commutr",
-      desc: " After winning the “Best for Social Good” award at a Milton academy hackathon, Milton’s Sustainability board reached out to us asking if they could further fund development of this product. At the time the board had been trying to solve the same task as us, only they were working by hand. Our programmatic solution to this problem greatly reduced the human time commitment and workloads and could be easily in future years to build a sustainable future at Milton Academy and beyond. The web app is currently live, although functionality will be turned off until the fall of 2022.",
+      desc: " After winning the “Best for Social Good” award at a Milton Academy hackathon, Milton’s sustainability board reached out to us asking if they could further fund development of this product. At the time the board had been trying to solve the same task as us, only they were working by hand. Our programmatic solution to this problem greatly reduced the human time commitment and workloads and could be easily in future years to build a sustainable future at Milton Academy and beyond. The web app is currently live and being deployed at Milton this Winter.",
       images: [commutr1, commutr2, commutr3, commutr4],
       link: "http://commutr.org",
     },
@@ -75,7 +75,7 @@ export default function Portfolio() {
     },
     {
       id: "6",
-      title: "Medelian Genetics",
+      title: "Mendelian Genetics",
       desc: "I conducted an experiment to study the effect of homozygous dominance in Brassica rapa plants on the strength of its purple color. In short, I was trying to prove that, while small, clear differences between homozygous and heterozygous dominant plants could be detected with computer technology. I created a color analysis algorithm with Python and the cv2 library. I then used this algorithm to determine that there are, in fact, differences between the phenotypes of homozygous and heterozygous dominant plants!",
       images: [mendel1, mendel2, mendel3],
       link: "https://docs.google.com/document/d/11U0xDl7KNu4L8vkIVbO6vPRZPGXLn5fIQ0n9-SguDrc/edit?usp=sharing",
@@ -83,14 +83,14 @@ export default function Portfolio() {
     {
       id: "7",
       title: "Food Pantry Management",
-      desc: "Created an organization app for my food pantry using a cross platform development environment in Java and hosted an SQL server database. This project was completed by me, and me alone. I did consulting work and talked to volunteers and clients alike to determine their needs and accessibility restrictions. The project was eventually completed with elderly accessibility in mind.",
+      desc: "I created an organization app for my food pantry using a cross platform development environment in Java and hosted an SQL server database. I did consulting work and talked to volunteers and clients to determine their needs and accessibility restrictions. The project was eventually completed with elderly accessibility in mind.",
       images: [food1, food2],
       link: "https://github.com/Gunman108/FoodPantry",
     },
     {
       id: "8",
       title: "Orbital Mechanics",
-      desc: "I created simulated solar system using physics concepts and knowledge of Orbital mechanics and vector math. I developed systems with single and multiple orbiting bodies, as well as a rescaling algorithm in Java. I prototyped a version in JavaScript and later created a full solar system in Java.",
+      desc: "I created a simulated solar system using physics concepts and knowledge of Orbital mechanics and vector math. I developed systems with single and multiple orbiting bodies, as well as a rescaling algorithm in Java. I prototyped a version in JavaScript and later created a full solar system in Java.",
       images: [orbit1, orbit2],
       link: "https://editor.p5js.org/Gumba/sketches/oRB0_qn_t",
     },
