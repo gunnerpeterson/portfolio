@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31535c63.css",
-    "main.js": "/static/js/main.1117cd73.js",
+    "main.js": "/static/js/main.d0cdcbf7.js",
     "static/media/socrates and the pig at the end of time together.pdf": "/static/media/socrates and the pig at the end of time together.2cacfbc76d21aa802dc2.pdf",
     "static/media/commutr_route.png": "/static/media/commutr_route.3793cd69db0187fedf6d.png",
     "static/media/gotcha_1.png": "/static/media/gotcha_1.62776b47fbbeed24de59.png",
@@ -47,10 +47,10 @@
     "static/media/foodpantry_2.png": "/static/media/foodpantry_2.3050ac6052e89deed548.png",
     "index.html": "/index.html",
     "main.31535c63.css.map": "/static/css/main.31535c63.css.map",
-    "main.1117cd73.js.map": "/static/js/main.1117cd73.js.map"
+    "main.d0cdcbf7.js.map": "/static/js/main.d0cdcbf7.js.map"
   },
   "entrypoints": [
     "static/css/main.31535c63.css",
-    "static/js/main.1117cd73.js"
+    "static/js/main.d0cdcbf7.js"
   ]
 }
