@@ -19,7 +19,7 @@ export default function About() {
           <p>
             I’m a Philosopher and Programmer from Boston, Massachusetts. My goal
             is to combine these two disparate fields by leveraging my knowledge
-            of Ethics, Language, Logic, and beyond into the expanding dicipline
+            of Ethics, Language, Logic, and beyond into the expanding discipline
             of Artificial Intelligence. I view programming as my medium and
             conduit for Philosophy, much like playwriting and fiction.
           </p>

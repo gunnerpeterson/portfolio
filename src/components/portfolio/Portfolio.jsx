@@ -34,14 +34,14 @@ export default function Portfolio() {
     {
       id: "0",
       title: "Commutr",
-      desc: " After winning the “Best for Social Good” award at a Milton Academy hackathon, Milton’s sustainability board reached out to us asking if they could further fund development of this product. At the time the board had been trying to solve the same task as us, only they were working by hand. Our programmatic solution to this problem greatly reduced the human time commitment and workloads and could be easily in future years to build a sustainable future at Milton Academy and beyond. The web app is currently live and being deployed at Milton this Winter.",
+      desc: " After winning the “Best for Social Good” award at a Milton Academy hackathon, Milton’s sustainability board reached out to us asking if they could further fund development of this product. At the time the board had been trying to solve the same task as us, only they were working by hand. Our programmatic solution to this problem greatly reduced the human time commitment and workloads and could be easily implemented in future years to build a sustainable future at Milton Academy and beyond. The web app is currently live and being deployed at Milton this winter.",
       images: [commutr1, commutr2, commutr3, commutr4],
       link: "http://commutr.org",
     },
     {
       id: "1",
       title: "Tutor Milton",
-      desc: "I led a team to recreate the website used to pair students with peer tutor, and was appointed to project head and faculty/student liaison. I became an expert in React fontend development and Firebase database management. I led a team of six students to create a finished and polished product currently used by the school, and was the primary programmer for the site. Features of this website included a page to request approval to tutor, a page to request tutoring, and corresponding pages teachers to approve students and tutors to accept requests.",
+      desc: "I led a team to recreate the website used to pair students with peer tutors, and was appointed to project head and faculty/student liaison. I became an expert in React fontend development and Firebase database management. I led a team of six students to create a finished and polished product currently used by the school, and was the primary programmer for the site. Features of this website included a page to request approval to tutor, a page to request tutoring, and corresponding pages for teachers to approve students and tutors to accept requests.",
       images: [tutor1, tutor2],
       link: "https://tutormilton.com/",
     },
