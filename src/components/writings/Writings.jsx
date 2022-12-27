@@ -9,14 +9,14 @@ import alg from "../../assets/onalg.png";
 import algPDF from "../../assets/Algorithms.pdf";
 import manip from "../../assets/moral_manip.png";
 import manipPDF from "../../assets/Moral Manipulation.pdf";
-import abort from "../../assets/abortion.png";
-import abortPDF from "../../assets/Abortion and Objective Emotivism.pdf";
-import friend from "../../assets/friendship.png";
-import friendPDF from "../../assets/Friendship.pdf";
-import mind from "../../assets/function.png";
-import mindPDF from "../../assets/Functionalism Dualism.pdf";
-import gorg from "../../assets/gorg.png";
-import gorgPDF from "../../assets/Gorgias' Helen.pdf";
+import death from "../../assets/death.png";
+import deathPDF from "../../assets/On Death.pdf";
+import rhetoric from "../../assets/rhetoric.png";
+import rhetoricPDF from "../../assets/Philosophy on Rhetoric.pdf";
+import second from "../../assets/2ndp.png";
+import secondPDF from "../../assets/Philosophy of the Second Person.pdf";
+import speech from "../../assets/speech.png";
+import speechPDF from "../../assets/on the nonexistance of words.pdf";
 
 export default function Writings() {
   return (
@@ -44,6 +44,16 @@ export default function Writings() {
             <p>
               A school of thought of my own invention, "Metapragmatism" is a
               system of Metaphysics in which truth is driven by purpose.
+            </p>
+          </div>
+        </a>
+        <a href={speechPDF} target="_blank" rel="noopener noreferrer">
+          <div className="item">
+            <img src={speech} alt="" />
+            <h3>On Words</h3>
+            <p>
+              A peice of epideictic oratory written in the style of Gorgias
+              proving words do not exist.
             </p>
           </div>
         </a>
@@ -80,43 +90,33 @@ export default function Writings() {
             </p>
           </div>
         </a>
-        <a href={abortPDF} target="_blank" rel="noopener noreferrer">
+        <a href={deathPDF} target="_blank" rel="noopener noreferrer">
           <div className="item">
-            <img src={abort} alt="" />
-            <h3>Abortion & Emotivism</h3>
+            <img src={death} alt="" />
+            <h3>On Death</h3>
             <p>
-              An objective emotivist perspective in the Abortion debate through
-              the analysis of Marquis and Thomson.
+              An analysis of existentialist and romantic Philosophical
+              perspectives on Death.
             </p>
           </div>
         </a>
-        <a href={friendPDF} target="_blank" rel="noopener noreferrer">
+        <a href={secondPDF} target="_blank" rel="noopener noreferrer">
           <div className="item">
-            <img src={friend} alt="" />
-            <h3>On Friendship</h3>
+            <img src={second} alt="" />
+            <h3>2nd Person Philosophy</h3>
             <p>
-              An exploration of Aristotelian and Platonic definitions of
-              friendship.
+              An introduction to the ethics driven Metaphysics of Buber and
+              Levinas.
             </p>
           </div>
         </a>
-        <a href={mindPDF} target="_blank" rel="noopener noreferrer">
+        <a href={rhetoricPDF} target="_blank" rel="noopener noreferrer">
           <div className="item">
-            <img src={mind} alt="" />
-            <h3>On Functionalism</h3>
+            <img src={rhetoric} alt="" />
+            <h3>On Rhetoric</h3>
             <p>
-              A comparison between Cartesian Dualist and Functionalist
-              perspectives on the Mind and conciousness.
-            </p>
-          </div>
-        </a>
-        <a href={gorgPDF} target="_blank" rel="noopener noreferrer">
-          <div className="item">
-            <img src={gorg} alt="" />
-            <h3>On Gorgias</h3>
-            <p>
-              An analysis of the ancient rhetor Gorgias and his use of language
-              in his "Encomium of Helen."
+              An introduction to and analysis of various Philosophical
+              perspectives on persuasive language.
             </p>
           </div>
         </a>
