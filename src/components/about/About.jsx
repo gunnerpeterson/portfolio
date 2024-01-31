@@ -17,11 +17,15 @@ export default function About() {
         <div className="wrapper">
           <h1>About</h1>
           <p>
-            I’m a Philosopher and Programmer from Boston, Massachusetts. My goal
-            is to combine these two disparate fields by leveraging my knowledge
-            of Ethics, Language, Logic, and beyond into the expanding discipline
-            of Artificial Intelligence. I view programming as my medium and
-            conduit for Philosophy, much like playwriting and fiction.
+            I’m a writer and programmer from Boston, Massachusetts and currently
+            an undergraduate at Brown University studying Philosophy and Computer Science.
+            I'm trying to use my fiction as an antidote to the wave of solipsism
+            plaguing the internet age.
+
+            As a programmer and Philosopher, I'm trying
+            to combine these two disparate fields by leveraging my knowledge
+            of Ethics, Language, Logic. I view programming as my medium and
+            conduit for Philosophy, much like fiction.
           </p>
           <h2>Skillset</h2>
           <div className="skillWrapper">

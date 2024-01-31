@@ -36,7 +36,7 @@ export default function Contact() {
           ></textarea>
           <button type="submit">Send</button>
           {message && (
-            <span>My most humble of thanks for your correspondance.</span>
+            <span>I'll get back to you soon!</span>
           )}
         </form>
       </div>
